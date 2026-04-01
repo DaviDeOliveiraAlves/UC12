@@ -1,0 +1,110 @@
+body{
+ background-image: url("../assets/biblioteca.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: Georgia, serif;
+}
+
+h1{
+color: #d4af37;
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+p{
+line-height: 1.6;
+max-width: 600px;
+margin: 10px auto 30px auto;
+}
+
+.container{
+  background: rgba(0,0,0,0.7);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 80px auto; /* centraliza corretamente */
+  backdrop-filter: blur(4px);
+}
+
+.container img{
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+}
+
+button{
+background: linear-gradient(#b38b2d,#6e4f14);
+border-radius:10px;
+cursor:pointer;
+padding:10px 25px;
+border:none;
+color:white;
+font-weight:bold;
+margin-top:20px;
+}
+
+button:hover{
+transform: scale(1.08);
+box-shadow: 0px 0px 10px gold;
+}
+
+.personagens{
+ margin: 100px auto;
+}
+
+.personagens h2{
+color: #d4af37;
+margin-bottom: 20px;
+}
+
+.personagem-card{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background: #f5f1e6; /* cor de papel */
+  border-radius: 8px;
+  padding: 90px;
+  width: 200px;
+  
+  border: 1px solid #d6cfc2;
+  
+  box-shadow: 
+    0 4px 8px rgba(0,0,0,0.15),
+    inset 0 0 20px rgba(0,0,0,0.05);
+}
+
+.card h3{
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #3b2f2f;
+}
+
+.card p{
+  font-family: "Georgia", serif;
+  color: #5a4a3b;
+}
+
+.card:hover{
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+.card-img{
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+
+  border-radius: 6px;
+  margin-bottom: 10px;
+
+  border: 2px solid #b38b2d;
+  box-shadow: 0px 0px 10px rgba(179, 139, 45, 0.6);
+
+  filter: sepia(20%);
+}
