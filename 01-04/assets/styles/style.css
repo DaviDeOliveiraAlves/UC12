@@ -39,3 +39,35 @@ color: blue;
 margin: 10px;
 
 }
+
+.banner{
+    background-image: url(https://api.senacrs.com.br/bff/site-senac/v1/file/31c81eb2575d93f081782ac1cfc9088461f5f1.png);
+    height: 400px;
+}
+
+main div{
+    background-color: rgb(165, 165, 165);
+}
+
+.cursos{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+.curso-imagem{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    border: 5px solid orange;
+}
+
+.curso-imagem img{
+    height: 100%;
+}
+
+.borda-azul{
+    border: 5px solid blue;
+}
