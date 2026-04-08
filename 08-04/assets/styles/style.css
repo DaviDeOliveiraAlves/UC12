@@ -1,0 +1,111 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+}
+
+
+.ex2 {
+  width: 200px;
+  background: darkcyan;
+  margin: 5px 0;
+}
+
+
+.ex3 {
+  width: 200px;
+  background: orange;
+}
+
+
+.ex4 {
+  display: inline-block;
+  width: 200px;
+  background: red;
+}
+
+
+.ex5 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: gray;
+  margin: 5px;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+.s1 {
+  display: block;
+  width: 150px;
+  height: 80px;
+  background: aqua;
+}
+
+.s2 {
+  display: inline;
+  width: 150px;
+  height: 80px;
+  background: purple;
+}
+
+.s3 {
+  display: inline-block;
+  width: 150px;
+  height: 80px;
+  background: darkolivegreen;
+}
+
+
+.none {
+  display: none;
+  background: red;
+}
+
+.hidden {
+  visibility: hidden;
+  background: yellow;
+  height: 50px;
+}
+
+
+.menu a {
+  display: inline-block;
+  margin-right: 10px;
+  background: gray;
+  padding: 5px 10px;
+  color: white;
+  text-decoration: none;
+}
+
+
+.ex9 {
+  display: inline-block;
+  width: 200px;
+  background: gray;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.card {
+  width: 250px;
+  padding: 20px;
+  background: white;
+  color: black;
+}
+
+.card span {
+  display: inline-block;
+}
+
+.card button {
+  display: inline-block;
+  width: 100px;
+  margin-left: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+}
