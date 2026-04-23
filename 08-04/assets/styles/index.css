@@ -1,0 +1,14 @@
+.container-pai {
+    background-color: darkolivegreen;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-pai > div {
+    background-color: rgb(190, 233, 0);
+    height: 20%;        
+}
