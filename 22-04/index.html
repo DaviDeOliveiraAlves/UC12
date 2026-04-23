@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Ippo</title>
+<link rel="stylesheet" href="../22-04/assets/styles/style.css"> 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Libre+Baskerville&display=swap" rel="stylesheet">  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="placar">
+Pontos: <span id="pontos">0</span>
+</div>
+
+<div class="container">
+
+
+<div class="caixa" id="q1">
+<p>O titulo de Silencio Negro pertence a qual destes fixers?</p>
+
+<button onclick="responder('A', 1)">A) Angelica</button>
+<button onclick="responder('B', 1)">B) Vespa cabro</button>
+<button onclick="responder('C', 1)">C) Roland</button>
+<button onclick="responder('D', 1)">D) Vergilius</button>
+<button onclick="responder('E', 1)">E) Argalia</button>
+
+<div id="resultado1" class="resultado">
+<img id="gif1" src="">
+<p id="msg1"></p>
+</div>
+</div>
+
+
+<div class="caixa" id="q2" style="display: none;">
+<p>Qual dos 5 dedos da cidade valorizam a vontade da cidade acima de tudo?</p>
+
+<button onclick="responder('A', 2)">A) Dedão</button>
+<button onclick="responder('B', 2)">B) Indicador</button>
+<button onclick="responder('C', 2)">C) Meio</button>
+<button onclick="responder('D', 2)">D) Anelar</button>
+<button onclick="responder('E', 2)">E) Mindinho</button>
+
+<div id="resultado2" class="resultado">
+<img id="gif2" src="">
+<p id="msg2"></p>
+</div>
+</div>
+
+
+
+<div class="caixa" id="q3" style="display:none;">
+<p>Qual o nível de ameaça a cidade mais alto registrado pela associação hana?</p>
+<button onclick="responder('A',3)">Pesadelo Urbano</button>
+<button onclick="responder('B',3)">Lenda Urbana</button>
+<button onclick="responder('C',3)">Estrela da Cidade</button>
+<button onclick="responder('D',3)">Mito Urbano</button>
+<button onclick="responder('E',3)">Impureza da cidade</button>
+
+<div id="resultado3" class="resultado">
+<img id="gif3"><p id="msg3"></p>
+</div>
+</div>
+
+
+<div class="caixa" id="q4" style="display:none;">
+<p>Qual é a singularidade da Corporação Warp?</p>
+<button onclick="responder('A',4)">Viagens de trem em 10 segundos</button>
+<button onclick="responder('B',4)">Distorcer o espaço com portais</button>
+<button onclick="responder('C',4)">Clonar humanos para fazer soldados de elite</button>
+<button onclick="responder('D',4)">Retornar humanos a sua forma original</button>
+<button onclick="responder('E',4)">Manipular o tempo, para acelerar ou desacelerar ele</button>
+
+<div id="resultado4" class="resultado">
+<img id="gif4"><p id="msg4"></p>
+</div>
+</div>
+
+
+<div class="caixa" id="q5" style="display:none;">
+<p>Qual pecador da LCB ficou de fora do ranking de força pelo seu potencial?</p>
+<button onclick="responder('A',5)">Gregor</button>
+<button onclick="responder('B',5)">Hong Lu</button>
+<button onclick="responder('C',5)">Heathcliff</button>
+<button onclick="responder('D',5)">Sinclair</button>
+<button onclick="responder('E',5)">Rodion</button>
+
+<div id="resultado5" class="resultado">
+<img id="gif5"><p id="msg5"></p>
+</div>
+</div>
+
+</div>
+
+
+<div id="fim">
+<img src="../22-04/assets/images/Final.jpg">
+<h1>OBRIGADO POR JOGAR! Que a luz da cidade ilumine seu caminho</h1>
+</div>
+
+<script src="../22-04/assets/js/script.js"></script>
+</body>
+</html>
